@@ -23,16 +23,16 @@ ________________________________________________________________________________
 
 # Website Snippets
 1. Zwigato Web Main Page
-![zwigato-main-page](https://github.com/manthan-dev/Zwigato---The-Meal-App/assets/64124356/d3ba107e-ca24-410b-bbb9-8070c9e82638)
+![zwigato-main-page](https://github.com/manthan-dev/Zwigato-The-Meal-App/assets/64124356/6980ca84-82e0-4f36-b37a-f2f6d6084098)
 
 2. Search Items
-![search-item](https://github.com/manthan-dev/Zwigato---The-Meal-App/assets/64124356/2d9d680f-0efb-44c6-b041-aaec489246c5)
+![search-item](https://github.com/manthan-dev/Zwigato-The-Meal-App/assets/64124356/3e405569-98b8-4237-ae12-2d84fab8b4c3)
 
 3. All Meal Items
-![meals](https://github.com/manthan-dev/Zwigato---The-Meal-App/assets/64124356/9eeda9a2-2d86-4eda-be64-eb9e49b89a47)
+![meals](https://github.com/manthan-dev/Zwigato-The-Meal-App/assets/64124356/80a6d2ea-81a8-46de-b430-e9290b280f10)
 
 4. More Details about Food Item
-![more-details](https://github.com/manthan-dev/Zwigato---The-Meal-App/assets/64124356/7a1929c4-345b-4fe6-90cf-cf085830f4ea)
+![more-details](https://github.com/manthan-dev/Zwigato-The-Meal-App/assets/64124356/f4c644f8-26f9-4947-8ffe-1a838b620fbc)
 
 5. Cart Items  
-![cart-items](https://github.com/manthan-dev/Zwigato---The-Meal-App/assets/64124356/e7f56c1e-daa1-4e45-a526-f429dabc3b38)
+![cart-items](https://github.com/manthan-dev/Zwigato-The-Meal-App/assets/64124356/d13d867b-9952-43ae-839a-1f70bcac8546)
