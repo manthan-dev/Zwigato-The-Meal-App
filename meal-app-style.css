@@ -1,0 +1,527 @@
+* {
+    font-family: "Basis Grotesque Pro", Arial, sans-serif;
+    /* padding: 0; */
+    /* margin: 0; */
+}
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* position: fixed; */
+    /* top: 0px; */
+    margin: -8px;
+    padding: 1.5rem 0.5rem;
+    /* background-color: white; */
+    color: #fff;
+    width: 100%;
+    background-color: rgb(255, 228, 197);
+}
+
+.site-name {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    /* color: #f15700; */
+    color: #F80;
+}
+
+.checkbtn {
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+.checkbtn i {
+    /* color: #f15700; */
+    color: #F80;
+}
+
+#check {
+    opacity: 0;
+    width: 500px;
+    background: #222831;
+
+}
+
+
+.nav-mobile {
+    /* display: flex; */
+    display: none;
+    position: absolute;
+    top: 5rem;
+    right: 0;
+    background-color: rgb(255, 228, 197);
+    z-index: 3;
+    width: 25rem;
+    height: auto;
+    /* border: 1px solid red; */
+}
+
+.nav-mobile h5 {
+    font-size: 30px;
+    text-align: center;
+    /* color: red; */
+    color: #F80;
+}
+
+.nav-mobile .favourite-item-in-card {
+    width: 10rem;
+    right: 0;
+    margin: 10px 80px;
+}
+
+
+#check:checked~.nav-mobile {
+    display: block;
+}
+
+#favourite-cart-container {
+    /* border: 1px solid red; */
+    width: 100%;
+    /* height: 500px; */
+}
+
+.cart-button {
+    border: none;
+    background-color: inherit;
+}
+
+/* .nav-mobile a {
+    color: #fff;
+    padding: 1rem 1.5rem;
+    display: block;
+}
+
+@media only screen and (max-width: 992px) {
+    .checkbtn {
+        display: block;
+        font-size: 5rem;
+        position: absolute;
+        top: 30px;
+        left: 40px;
+    }
+
+    .nav-mobile {
+        top: 160px;
+        width: 100%;
+    }
+
+    .nav-mobile a {
+        font-size: 2rem;
+        padding: 2rem 3rem;
+    }
+} */
+
+.site-quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.site-quote h1 {
+    font-weight: 700;
+    /* padding: 2rem; */
+    /* margin: 0px; */
+    /* border: 1px solid red; */
+    z-index: 4;
+}
+
+/* 
+.site-quote a {
+    width: 50%;
+} */
+
+.site-quote a {
+    padding: 0;
+    /* border: 1px solid red; */
+    margin: 0px;
+    width: 160px;
+    height: 130px;
+    margin-top: -40px;
+
+}
+
+.site-logo {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#search-bar {
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#search-bar i {
+    margin-right: -3rem;
+    position: relative;
+    font-size: 30px;
+}
+
+#search-input {
+    padding: 1rem 25rem 1rem 4rem;
+    border-radius: 15px;
+    border: 1px solid #f80;
+}
+
+
+/* Meal Card Container */
+#main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* border: 1px solid orange; */
+    width: 100%;
+    height: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5em;
+}
+
+
+/* Meal Card */
+
+.meal-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transition: scale 0.3s;
+    border: 2px solid #f80;
+    /* color: #F80; */
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.meal-card img {
+    border: none;
+    border-radius: 20px;
+    width: 250px;
+    height: 250px;
+
+
+}
+
+.meal-card:hover {
+    scale: 0.9;
+}
+
+
+.add-to-cart {
+    padding: 10px 50px;
+    margin-top: -25px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    z-index: 2;
+}
+
+.meal-card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.meal-card-title {
+    font-size: 25px;
+    /* color: #FFD43B; */
+    color: #414449;
+}
+
+.card-button {
+    padding: 6px 10px;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+}
+
+
+
+.card-button i {
+    color: grey;
+}
+
+
+.more-details {
+    border: none;
+    color: grey;
+    background-color: white;
+}
+
+
+/*Like Dislike Button*/
+.liked-meal {
+    background-color: white;
+    /* color: green; */
+    color: #1ba672;
+
+}
+
+.liked-meal:hover {
+    background-color: #1ba672;
+    color: white;
+}
+
+.disliked-meal {
+    /* color: red; */
+    color: #e43b4f;
+    background-color: white;
+}
+
+.disliked-meal:hover {
+    background-color: #e43b4f;
+    color: white;
+}
+
+
+/* More Details Card */
+/*No Meal Found*/
+.no-meal-found {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(95, 95, 95);
+    margin-top: 0;
+}
+
+/* Meal Details and Instructions */
+.meal-details-container {
+    border: 1px solid #FFD43B;
+    margin: 70px 70px 70px 70px;
+    border-radius: 30px;
+    width: 50%;
+}
+
+.meal-title-and-category {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: 0;
+}
+
+.meal-title-and-category img {
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    border-radius: 20px;
+    transition: scale 0.7s;
+}
+
+.meal-title-and-category img:hover {
+    scale: 1.2;
+}
+
+.card-title-and-category-name {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.meal-title-and-category h3 {
+    font-size: 30px;
+    color: #414449;
+    margin: 0;
+}
+
+.meal-title-and-category h4 {
+    margin: 5px 0px;
+}
+
+.meal-preparation {
+    display: flex;
+    flex-direction: column;
+}
+
+.meal-preparation p {
+    padding: 20px;
+}
+
+.youtube-guide {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.youtube-guide h5 {
+    background-color: #414449;
+    color: white;
+    width: fit-content;
+    margin: 20px;
+    padding: 6px 20px;
+    border-radius: 5px;
+}
+
+.youtube-button {
+    color: #414449;
+    /* color: white; */
+    background-color: white;
+    width: fit-content;
+    margin: 20px;
+    border: 1px solid lightgray;
+    padding: 6px 20px;
+    border-radius: 5px;
+}
+
+.youtube-button a {
+    text-decoration: none;
+}
+
+.youtube-button i {
+    color: #ff0000;
+}
+
+.instructions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.instructions h3 {
+    /* font-size: 20px; */
+    margin: 0;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.recipe-steps {
+    border: 1px solid #f80;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #fff0bb;
+    color: rgb(71, 71, 71);
+}
+
+/* Favourite Item in Cart */
+.favourite-item-in-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transition: scale 0.3s;
+    border: 2px solid #f80;
+    padding: 2rem;
+    border-radius: 20px;
+    /* width: 12rem; */
+}
+
+.favourite-item-in-card img {
+    border: none;
+    border-radius: 20px;
+    width: 140px;
+    height: 140px;
+
+
+}
+
+.favourite-item-in-card:hover {
+    scale: 0.9;
+}
+
+
+.favourite-item-in-card .add-to-cart {
+    padding: 5px 10px;
+    margin-top: -25px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.favourite-item-in-card .meal-card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.favourite-item-in-card .meal-card-title {
+    font-size: 20px;
+    /* color: #FFD43B; */
+    color: #414449;
+}
+
+.favourite-item-in-card .card-button {
+    padding: 5px 8px;
+    border: 1px solid rgb(95, 95, 95);
+    border-radius: 25px;
+}
+
+.favourite-item-in-card .card-button:hover {
+    background-color: #f80;
+    border: 1px solid #f80
+}
+
+.card-button i {
+    color: grey;
+}
+
+.card-button i:hover {
+    color: white;
+}
+
+
+.favourite-item-in-card .more-details {
+    border: none;
+    color: rgb(95, 95, 95);
+    background-color: inherit;
+}
+
+.favourite-item-in-card .more-details:hover {
+    background-color: #f80;
+    color: white;
+}
+
+
+/*Like Dislike*/
+.liked-meal {
+    background-color: white;
+    /* color: green; */
+    color: #1ba672;
+}
+
+.liked-meal:hover {
+    background-color: #1ba672;
+    color: white;
+}
+
+.disliked-meal {
+    /* color: red; */
+    color: #e43b4f;
+    background-color: white;
+}
+
+.disliked-meal:hover {
+    background-color: #e43b4f;
+    color: white;
+}
