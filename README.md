@@ -24,7 +24,7 @@ ________________________________________________________________________________
 ![zwigato-main-page](https://github.com/manthan-dev/Zwigato-The-Meal-App/assets/64124356/6980ca84-82e0-4f36-b37a-f2f6d6084098)
 
 2. Search Items
-![search-item](https://github.com/manthan-dev/Zwigato-The-Meal-App/assets/64124356/3e405569-98b8-4237-ae12-2d84fab8b4c3)
+![search-item](https://github.com/manthan-dev/Zwigato-The-Meal-App/assets/64124356/cc6d8f29-0033-4c1c-8ed7-f8b26043964e)
 
 3. All Meal Items
 ![meals](https://github.com/manthan-dev/Zwigato-The-Meal-App/assets/64124356/80a6d2ea-81a8-46de-b430-e9290b280f10)
